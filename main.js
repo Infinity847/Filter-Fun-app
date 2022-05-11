@@ -25,7 +25,7 @@ function gotPoses() {
   if (results.length > 0) {
     noseX = results[0].pose.nose.x;
     noseY = results[0].pose.nose.y;
-    image();
+    image(clown_nose,noseX,noseY,40,40);
   }
 }
 function modelLoaded() {
